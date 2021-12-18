@@ -21,6 +21,5 @@ class EventTest extends AbstractTestCase
     public function its_defaults_to_an_event_name(){
         $event = new EventStubNoName();
         $this->assertEquals('EventStubNoName',$event->getName());
-
     }
 }
